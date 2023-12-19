@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/image_view_logo"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/natureappp_logo" />
+
+    <TextView
+        android:id="@+id/text_view_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/AppNameTextStyle"
+        android:text="Curiosidades da Natureza"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/text_view_history"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/AppHistoryTextStyle"
+        android:text="O app NatureApp é uma ferramenta para quem quer aprender mais sobre o mundo natural. O aplicativo envia notificações com curiosidades sobre  à natureza."
+        android:textAlignment="center"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/text_view_hello"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/button_profile"
+        android:layout_width="166dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/material_emphasis_medium"
+        android:layout_marginVertical="@dimen/material_emphasis_disabled"
+        android:text="Nome" />
+
+</LinearLayout>
